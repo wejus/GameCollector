@@ -13,6 +13,8 @@
 		917D77691F81830200FE23CA /* GameCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 917D77671F81830200FE23CA /* GameCollector.xcdatamodeld */; };
 		917D776B1F81830200FE23CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917D776A1F81830200FE23CA /* Assets.xcassets */; };
 		917D776E1F81830200FE23CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917D776C1F81830200FE23CA /* LaunchScreen.storyboard */; };
+		917D77761F81872400FE23CA /* Screen Shot 2017-09-11 at 3.11.39 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 917D77751F81872400FE23CA /* Screen Shot 2017-09-11 at 3.11.39 PM.png */; };
+		917D77781F81882F00FE23CA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917D77771F81882F00FE23CA /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		917D776A1F81830200FE23CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		917D776D1F81830200FE23CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		917D776F1F81830200FE23CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917D77751F81872400FE23CA /* Screen Shot 2017-09-11 at 3.11.39 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-09-11 at 3.11.39 PM.png"; sourceTree = "<group>"; };
+		917D77771F81882F00FE23CA /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		917D775F1F81830200FE23CA /* GameCollector */ = {
 			isa = PBXGroup;
 			children = (
+				917D77751F81872400FE23CA /* Screen Shot 2017-09-11 at 3.11.39 PM.png */,
 				917D77601F81830200FE23CA /* AppDelegate.swift */,
 				917D77621F81830200FE23CA /* ViewController.swift */,
 				917D77641F81830200FE23CA /* Main.storyboard */,
+				917D77771F81882F00FE23CA /* GameViewController.swift */,
 				917D776A1F81830200FE23CA /* Assets.xcassets */,
 				917D776C1F81830200FE23CA /* LaunchScreen.storyboard */,
 				917D776F1F81830200FE23CA /* Info.plist */,
@@ -129,6 +135,7 @@
 				917D776E1F81830200FE23CA /* LaunchScreen.storyboard in Resources */,
 				917D776B1F81830200FE23CA /* Assets.xcassets in Resources */,
 				917D77661F81830200FE23CA /* Main.storyboard in Resources */,
+				917D77761F81872400FE23CA /* Screen Shot 2017-09-11 at 3.11.39 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				917D77781F81882F00FE23CA /* GameViewController.swift in Sources */,
 				917D77691F81830200FE23CA /* GameCollector.xcdatamodeld in Sources */,
 				917D77631F81830200FE23CA /* ViewController.swift in Sources */,
 				917D77611F81830200FE23CA /* AppDelegate.swift in Sources */,
